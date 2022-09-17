@@ -218,18 +218,6 @@ const SettingsDialog = connectModal({ name: "settings", destroyOnHide: false })(
 
           <Divider />
 
-          <Link
-            href="https://github.com/crvouga/connect-four"
-            underline="none"
-            color="inherit"
-          >
-            <ListItem button>
-              <ListItemIcon>
-                <GitHubIcon fontSize="large" />
-              </ListItemIcon>
-              <ListItemText primary="Github Repository" />
-            </ListItem>
-          </Link>
         </List>
       </Dialog>
     );
